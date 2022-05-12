@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+html {
+     font-family: 'Segoe UI', sans-serif;
+ }
+
+.opancity {
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    margin: 15px 0; 
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 54.5px;
+    padding: 8px 16px;
+    background-color: #fff;
+    box-shadow:  0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    letter-spacing: 4px;
+    
+}
+
+.nav-home {
+    padding: 8px 16px;
+    float: left;
+    
+}
+
+.nav-home a  {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.nav-home a b {
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+
+.nav-list li {
+    padding: 10px 16px;
+    display: inline-block;
+}
+
+.nav-list li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#nav .nav-home:hover,
+#nav .nav-list li:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#header {
+    position: relative;
+}
+
+#img-head {
+    display: flex;
+    background: url(/acsetsbr/imgbr/imgheader/headerbr.jpg) top center / cover no-repeat;
+    max-width: 95%;
+    width: 1500px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-img {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 16px;
+}
+
+
+.text-img h2 {
+    display: inline-block;
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin: 12px 0;
+    color: #f1f1f1;
+    font-weight: 400;
+}
+
+.text-img b {
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 36px;
+    letter-spacing: 4px;
+    background-color: #000;
+    opacity: 0.75;
+    padding: 8px 16px;
+    margin-right: 12px;
+}
+
+#page-content {
+    max-width: 1564px;
+    padding: 8px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.content-main {
+    padding: 32px 16px;  
+}
+
+.content-title {
+    font-size: 24px;
+    padding: 16px 0;
+    margin: 10px 0;
+    border-bottom: 1px #f1f1f1 solid ;
+    font-weight: 400;
+}
+
+
+.page-houses {
+    padding: 0 8px;
+}
+
+
+
+.product-house {
+    position: relative;
+    width: 25%;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    filter: grayscale(0.4);
+    transition: tranform linear 0.1s;
+    will-change: tranform;
+}
+
+
+.product-house:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: translateY(-1px);
+}
+
+.name-house {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 16px;
+}
+
+
+
+.house {
+    width: 100%;
+}
+
+
+.page-architects {
+    padding: 0 8px;
+    width: 100%;
+    
+}
+
+
+.about-architect {
+    width: 25%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    float: left;
+    filter: grayscale(75%);
+}
+
+.about-architect img {
+    width: 100%;
+}
+
+.about-architect:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+.about-architect h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+
+.btn-about {
+    width: 100%;
+    font-size: 15px;
+    padding: 11px 16px;
+    border: none;
+    font-family: Verdana, sans-serif;
+}
+
+.btn-about:hover,
+.btn-contact:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.contact-info .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ccc solid;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.btn-contact {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    margin: 16px 0;
+    padding: 11px 16px;
+    border: none;
+    outline: none;
+}
+
+.map {
+    padding: 0px 16px;
+    display: table;
+    width: 100%;
+}
+
+.map img {
+    width: 100%;
+}
+
+#footer {
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 16px 0;
+}
+
+#footer p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+#footer a {
+    color: #fff;
+}
+#footer a:hover {
+    color: #4CAF50;
+}
+
+
+
+

@@ -1,0 +1,104 @@
+@media only screen and (min-width: 43.8125em ) and (max-width: 80em) {
+    #img-head {
+        height: 600px;
+    }
+    
+    .product-house {
+        filter: grayscale(0);
+    }
+}
+
+@media only screen and (min-width: 17.4375em) and (max-width: 43.75em) {
+    .text-img b,
+    .text-img h2 {
+        font-size: 18px;
+    }
+
+    .text-img {
+        text-align: center;
+    }
+    #img-head {
+        height: 400px
+    }
+    .product-house {
+        width: 100%;
+    }
+    .about-architect {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .nav-list {
+        display: none;
+    }
+
+    .mobile-form .nav-btn-moblie {
+        display: block;
+        float: right;
+    }
+
+    .product-house {
+        filter: grayscale(0);
+    }
+}
+
+
+
+.nav-btn-moblie {
+    color: #000;
+    font-size: 40px;
+    display: none;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.nav-list-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    float: right;
+    height: auto;
+    width: 40%;
+    transform: translateX(100%);
+}
+.nav-list-mobile li {
+    list-style-type: none;
+    text-align: center;
+    padding: 18px 0;
+    border-top: 1px #ccc solid;
+}
+
+.nav-list-mobile li .nav-mobile-close {
+    display: block;
+}
+
+.nav-list-mobile li a {
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+#mobile-input:checked ~ .nav-list-mobile {
+    transform: translateX(0);
+}
+
+#mobile-input:checked ~ .nav-overlay {
+    display: block;
+}
+
+.product-house {
+    filter: grayscale(0);
+}
